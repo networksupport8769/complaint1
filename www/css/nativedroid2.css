@@ -33,7 +33,7 @@ body {
 	-o-transition: opacity 0.4s;
 	transition: opacity 0.4s;
 	font-size: 16px;
-
+  font-family: 'Josefin Sans', sans-serif !important;
 	opacity: 1;
 	text-shadow: none !important;
 }
@@ -563,6 +563,7 @@ code {
 	line-height: 1.8em;
 	font-weight: 400;
 	letter-spacing: 0.005em;
+	font-family: 'Josefin Sans', sans-serif !important;
 }
 
 .ui-page-theme-a .ui-btn, html .ui-bar-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited,
@@ -2027,7 +2028,7 @@ background-image: url("../img/wholeandsimply-new.jpg");
 
 
 .bg-rupee-page{
-background-image: url("../img/payment-2.JPG");
+background-image: url("../img/payment-2new.jpg");
 	background-repeat: no-repeat;
     background-size:100% 100%;
 
@@ -2114,6 +2115,14 @@ height:2px;
     top: 10px !important;
     border: 10px !important;
 }
+
+.footerfixed2 {
+      width: 100% !important;
+   height: 40px !important;
+    top: 1px !important;
+    border: 10px !important;
+}
+
 
 .ui-page-theme-a .ui-btn.ui-btn-raised {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
@@ -2218,5 +2227,24 @@ height:2px;
 }
 
 
+.ui-field-contain {
+    border-bottom-color: #828282;
+    border-bottom-color: rgba(0,0,0,.15);
+    border-bottom-width: 0px !important;
+    border-bottom-style: solid;
+}
 
+.red{
+	color: red;
+}
+
+.ui-page-theme-a .ui-btn.ui-btn-raised {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,.00) !important;
+    background-color: #23253E !important;
+        color: white;
+
+    width: 100%;
+    border-radius: 0px;
+
+}
 /*-------------------------------Own Css----------------------------*/

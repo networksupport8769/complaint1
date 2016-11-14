@@ -101,7 +101,7 @@ var description = $("#description").val();
 
 
 
-if(uname != "" && phone != "" && mail != "" && suburb != "" && cities != "" && ntre != "" ){
+if(uname != "" && phone != ""  && cities != "" && ntre != "" ){
 
 // alert("rg");
 
@@ -128,6 +128,18 @@ var formData = $("#callAjaxForm").serialize();
 //sessionStorage.setItem("patient_detaias_array",JSON.stringify(result[0]));
 sessionStorage.setItem("complaint",JSON.stringify(data));
 complaint =  JSON.parse(sessionStorage.getItem("complaint"));
+
+
+for(a=0;a<complaint.length;a++){
+  var complaintli = complaint[a];
+
+
+}
+
+  var description='<input id="userhh" type="hidden" value='+complaintli.user_id+'>';
+
+  $("#userid").html(description);
+
 
 $.mobile.changePage($('#pagefour'), { transition: "none", changeHash: true, reverse: false });
 
@@ -159,7 +171,16 @@ else{
 
 });/*overall submit*/
 
-    
+ 
+
+
+
+
+
+
+
+
+
 
 });/*document ready*/
 
